@@ -1,0 +1,311 @@
+﻿  main.cpp
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,37): error C7592: не являющийся типом параметр шаблона типа "Vect<int>" требует как минимум "/std:c++20".
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,6): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "main.cpp")
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,6):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(22,2):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "A<T,B>"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,22): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(12,9): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(12,9): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(16,16): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(16,16): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(20,16): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(20,16): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(22,9): error C2993: "Vect": не является допустимым типом для параметра шаблона "B", не являющегося типом.
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(22,22): error C2133: intArray: неизвестный размер
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(22,22): error C2512: A: нет подходящего конструктора по умолчанию
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,48):
+   см. объявление "A"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(23,9): error C2993: "Vect": не является допустимым типом для параметра шаблона "B", не являющегося типом.
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(23,25): error C2133: doubleArray: неизвестный размер
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(23,25): error C2512: A: нет подходящего конструктора по умолчанию
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,48):
+   см. объявление "A"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(24,9): error C2993: "Vect": не является допустимым типом для параметра шаблона "B", не являющегося типом.
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(24,25): error C2133: stringArray: неизвестный размер
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(24,25): error C2512: A: нет подходящего конструктора по умолчанию
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,48):
+   см. объявление "A"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(27,17): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(27,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(27,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(27,17):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(28,17): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(28,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(28,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(28,17):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(29,17): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(29,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(29,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(29,17):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(31,20): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(31,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(31,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(31,20):
+  при попытке сопоставить список аргументов "(double)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(32,20): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(32,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(32,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(32,20):
+  при попытке сопоставить список аргументов "(double)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(34,20): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(34,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(34,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(34,20):
+  при попытке сопоставить список аргументов "(const char [6])"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(35,20): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(35,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(35,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(35,20):
+  при попытке сопоставить список аргументов "(const char [6])"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(37,64): error C2662: size_t A<T,B>::getSize(void): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(37,56):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(37,56):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(19,12):
+   см. объявление "A<T,B>::getSize"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(37,64):
+  при попытке сопоставить список аргументов "()"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(37,53): error C2088: <<: недопустимо для class
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(38,70): error C2662: size_t A<T,B>::getSize(void): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(38,59):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(38,59):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(19,12):
+   см. объявление "A<T,B>::getSize"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(38,70):
+  при попытке сопоставить список аргументов "()"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(38,56): error C2088: <<: недопустимо для class
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(39,70): error C2662: size_t A<T,B>::getSize(void): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(39,59):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(39,59):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(19,12):
+   см. объявление "A<T,B>::getSize"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(39,70):
+  при попытке сопоставить список аргументов "()"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(39,56): error C2088: <<: недопустимо для class
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(42,91): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(42,83):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(42,83):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(42,91):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(42,106): warning C4552: "<<": результат выражения не используется
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(43,97): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(43,86):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(43,86):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(43,97):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(43,112): warning C4552: "<<": результат выражения не используется
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(45,97): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(45,86):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(45,86):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(45,97):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\main.cpp(45,112): warning C4552: "<<": результат выражения не используется
+  test.cpp
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,37): error C7592: не являющийся типом параметр шаблона типа "Vect<int>" требует как минимум "/std:c++20".
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,6): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "test.cpp")
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,6):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(22,2):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "A<T,B>"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(8,22): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(12,9): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(12,9): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(16,16): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(16,16): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(20,16): error C3861: serverObject: идентификатор не найден
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(20,16): error C2065: serverObject: необъявленный идентификатор
+  (компиляция исходного файла "test.cpp")
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(21,5): error C2993: "Vect": не является допустимым типом для параметра шаблона "B", не являющегося типом.
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(21,18): error C2133: intArray: неизвестный размер
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(21,18): error C2512: A: нет подходящего конструктора по умолчанию
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(6,48):
+   см. объявление "A"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(22,13): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(22,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(22,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(22,13):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(23,13): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(23,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(23,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(23,13):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(24,5): error C2662: size_t A<T,B>::getSize(void): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(24,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(24,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(19,12):
+   см. объявление "A<T,B>::getSize"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(24,5):
+  при попытке сопоставить список аргументов "()"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(25,5): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(25,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(25,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(25,5):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(26,5): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(26,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(26,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(26,5):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(28,13): error C2662: void A<T,B>::addElement(const T &): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(28,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(28,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(11,10):
+   см. объявление "A<T,B>::addElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(28,13):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(29,5): error C2662: size_t A<T,B>::getSize(void): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(29,5):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(29,5):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(19,12):
+   см. объявление "A<T,B>::getSize"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(29,5):
+  при попытке сопоставить список аргументов "()"
+  
+C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(32,17): error C2662: T A<T,B>::getElement(int): невозможно преобразовать указатель "this" из "A" в "A<T,B> &"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(32,9):
+  Причина: невозможно преобразовать "A" в "A<T,B>"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(32,9):
+  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\A.h(15,7):
+   см. объявление "A<T,B>::getElement"
+  C:\CPP\ConsoleApplication3\ConsoleApplication3\test.cpp(32,17):
+  при попытке сопоставить список аргументов "(int)"
+  
+  Создание кода...
